@@ -77,3 +77,4 @@ crash.*.log
 
 # Logs
 *.log
+.vscode/
