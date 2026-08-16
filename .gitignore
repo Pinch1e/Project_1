@@ -1,0 +1,79 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Python bytecode, caches, and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Local databases and database exports
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.dump
+*.pgdump
+*.backup
+*.bak
+*.sql.gz
+local-db/
+exports/
+
+# Local and non-shareable data
+data/local/
+data/private/
+.ipynb_checkpoints/
+
+# Terraform state and local Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# Logs
+*.log
