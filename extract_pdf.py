@@ -1,5 +1,5 @@
 from pathlib import Path
-from pypdf import PdfReader
+from pypdf import PdfReader # type: ignore 
 
 pdf_path = Path("data/raw/companies_house_document.pdf")
 

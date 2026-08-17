@@ -28,7 +28,7 @@ pdf_path = "data/raw/companies_house_document.pdf"
 
 text = ocr_pages(pdf_path, 4, 6)
 
-with open("data/processed_leicester_financials.txt", "w") as file:
-    file.write(text)
+with open("data/processed_leicester_financials.txt", "r") as file:
+    text = file.read()
 
-print("OCR extraction saved.")
+print(text[:1000])

@@ -35,3 +35,12 @@ Use this project to progressively learn:
 
 Project 1 is limited to establishing the project documentation and repository hygiene needed for later work. It does not include application code, databases, Dockerfiles, infrastructure, or datasets.
 
+## Business Questions
+
+- What is Leicester City's annual revenue?
+- What does Leicester City's scouting/recruitment network look like?
+- How profitable could Leicester become over the next five years?
+- What is Leicester City's annual operating cost?
+- What are Leicester City's annual overheads?
+- How sustainable is Leicester's wage bill relative to revenue?
+- What could Leicester realistically be worth to an investor?
