@@ -1,3 +1,4 @@
+import re
 from pdf2image import convert_from_path # type: ignore
 import pytesseract # type: ignore
 
@@ -31,4 +32,6 @@ text = ocr_pages(pdf_path, 4, 6)
 with open("data/processed_leicester_financials.txt", "r") as file:
     text = file.read()
 
-print(text[:1000])
+print("turnover" in text.lower())
+
+print(text.lower().find("turnover"))
