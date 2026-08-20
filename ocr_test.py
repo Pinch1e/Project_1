@@ -32,6 +32,6 @@ text = ocr_pages(pdf_path, 4, 6)
 with open("data/processed_leicester_financials.txt", "r") as file:
     text = file.read()
 
-print("turnover" in text.lower())
+position = text.lower().find("turnover")
 
-print(text.lower().find("turnover"))
+print(text[position:position +300])
